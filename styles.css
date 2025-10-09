@@ -537,7 +537,7 @@ span{
         padding: 2rem 3%;
     }
     .header .logo{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .navbar a{
         font-size: 1.3rem;
@@ -558,17 +558,31 @@ span{
         margin: 2rem 0 0;
     }
     .home-content h3{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .home-content h2{
-        font-size: 4.5rem;
-        margin-bottom: 0.5rem;
+        font-size: 3rem;
+        margin-bottom: rem;
+    }
+    span{
+        font-size: 3rem;
     }
     .home-text{
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
     .home-content p{
+        font-size: 1.5rem;
         margin-bottom: 2rem;
+    }
+    .social-media a{
+        width: 35px;
+        height: 35px;
+        font-size: 1.6rem;
+        margin: 1rem 0.7rem;
+    }
+    .btn{
+        padding: 0.8rem 2.3rem;
+        font-size: 1.4rem;
     }
     .about{
         flex-direction: column;
@@ -579,8 +593,19 @@ span{
         text-align: center;
     }
     .about h2{
+        font-size: 3rem;
         text-align: center;
         margin-bottom: 3rem;
+    }
+    .about h3{
+        font-size: 2.2rem;
+    }
+    .about h3 span{
+        font-size: 2.2rem;
+    }
+    .about p{
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
     }
     .about-img img{
         width: 40vw;
@@ -589,25 +614,69 @@ span{
     .about-content{
         padding: 0;
     }
+    .education h2{
+        font-size: 3.2rem;
+        margin-bottom: 3rem;
+    }
     .education .timeline-items::before{
-        left: 20px;
+        left: 8px;
     }
     .education .timeline-item:nth-child(odd){
-        padding: 0 0 0 60px;
+        padding: 0 0 0 30px;
         text-align: left;
     }
     .education .timeline-item:nth-child(even){
-        padding: 0 0 0 60px;
+        padding: 0 0 0 30px;
         text-align: left;
     }
     .education .timeline-item .timeline-dot{
-        left: 10px;
+        left: 0;
     }
-    .projects .project-container{
-        flex-direction: column;
-        align-items: center;
+    .education .timeline-item .timeline-content{
+        padding: 20px 30px;
+    }
+    .education .timeline-item .timeline-content h3{
+        font-size: 2rem;
+    }
+    .education .timeline-item .timeline-content h4{
+        font-size: 1.6rem;
+    }
+    .education .timeline-item .timeline-content p{
+        font-size: 1.2rem;
+    }
+    .education .timeline-item .timeline-date{
+        font-size: 2rem;
+        margin: 7px 0 15px;
+    }
+    .projects h2{
+        font-size: 3.2rem;
+        margin-bottom: 3rem;
+    }
+    .projects{
+        padding: 8rem 3% 4rem;
     }
     .projects .project-box{
         max-width: 90%;
+    }
+    .projects .project-container{
+
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact h2{
+        font-size: 3.2rem;
+        margin-bottom: 2rem;
+    }
+    .contact form{
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+    }
+    .contact form .input-box input{
+        max-width: 100%;
+        margin: 0.7rem 0;
+        flex-direction: column;
+    }
+    .contact form .textarea{
+        max-width: 100%;
     }
 }
